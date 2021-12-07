@@ -1,0 +1,72 @@
+{
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers"
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Dracula",
+    "editor.tabSize": 2,
+    "editor.minimap.size": "fit",
+    "workbench.preferredDarkColorTheme": "Dracula",
+    "window.openFoldersInNewWindow": "on",
+    "window.newWindowDimensions": "maximized",
+    "explorer.confirmDelete": false,
+    "files.insertFinalNewline": true,
+    "editor.rulers": [
+        80, 120
+    ],
+    "extensions.ignoreRecommendations": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.autoReveal": false,
+    "window.openFilesInNewWindow": "default",
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "workbench.colorCustomizations": {
+        "editor.selectionHighlightBorder": "#60ff90",
+        "editor.selectionHighlightBackground": "#ffffff00"
+    },
+    "files.exclude": {
+        "**/.git": false
+    },
+    "workbench.editor.decorations.badges": true,
+    "workbench.editor.decorations.colors": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "markdown.extension.print.imgToBase64": true,
+    "markdown.extension.toc.levels": "2..6",
+    "editor.fontFamily": "Operator Mono Lig",
+    "editor.fontLigatures": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "todo-tree.general.statusBar": "total",
+    "todo-tree.general.tags": [
+        "BUG",
+        "DISCUSS",
+        "DISCUSSME",
+        "FIX",
+        "FIXME",
+        "HACK",
+        "TODO"
+    ],
+    "todo-tree.general.tagGroups": {
+        "FIX": [ "FIX", "BUG", "FIXME" ],
+        "DISCUSS": [ "DISCUSS", "DISCUSSME" ]
+    },
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.showCurrentScanMode": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "diffEditor.ignoreTrimWhitespace": false
+}
