@@ -1,9 +1,6 @@
 {
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.codeLens.scopes": [
-        "document",
-        "containers"
-    ],
+    "gitlens.codeLens.scopes": ["document", "containers"],
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Dracula",
     "editor.tabSize": 2,
@@ -13,9 +10,7 @@
     "window.newWindowDimensions": "maximized",
     "explorer.confirmDelete": false,
     "files.insertFinalNewline": true,
-    "editor.rulers": [
-        80, 120
-    ],
+    "editor.rulers": [80, 120],
     "extensions.ignoreRecommendations": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.autoReveal": false,
@@ -24,16 +19,16 @@
     "files.eol": "\n",
     "files.trimFinalNewlines": true,
     "workbench.colorCustomizations": {
-        "editor.selectionHighlightBorder": "#60ff90",
-        "editor.selectionHighlightBackground": "#ffffff00"
+      "editor.selectionHighlightBorder": "#60ff90",
+      "editor.selectionHighlightBackground": "#ffffff00"
     },
     "files.exclude": {
-        "**/.git": false
+      "**/.git": false
     },
     "workbench.editor.decorations.badges": true,
     "workbench.editor.decorations.colors": true,
     "[markdown]": {
-        "files.trimTrailingWhitespace": false
+      "files.trimTrailingWhitespace": false
     },
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
     "markdown.extension.print.imgToBase64": true,
@@ -46,27 +41,44 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "todo-tree.general.statusBar": "total",
     "todo-tree.general.tags": [
-        "BUG",
-        "DISCUSS",
-        "DISCUSSME",
-        "FIX",
-        "FIXME",
-        "HACK",
-        "TODO"
+      "BUG",
+      "DEVIATE",
+      "DISCUSS",
+      "DISCUSSME",
+      "FIX",
+      "FIXME",
+      "HACK",
+      "TODO",
+      "RECOMMEND",
+      "STANDARD"
     ],
     "todo-tree.general.tagGroups": {
-        "FIX": [ "FIX", "BUG", "FIXME" ],
-        "DISCUSS": [ "DISCUSS", "DISCUSSME" ]
+      "FIX": ["FIX", "BUG", "FIXME"],
+      "DISCUSS": ["DISCUSS", "DISCUSSME"]
     },
     "todo-tree.tree.showCountsInTree": true,
     "todo-tree.tree.showCurrentScanMode": false,
     "editor.inlineSuggest.enabled": true,
     "editor.guides.bracketPairs": true,
     "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": false
+      "*": true,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false
     },
-    "diffEditor.ignoreTrimWhitespace": false
-}
+    "diffEditor.ignoreTrimWhitespace": false,
+    "mssql.connections": [],
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useLanguageServer": true,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "window.zoomLevel": 1
+  }
